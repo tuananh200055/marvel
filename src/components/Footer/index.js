@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Footle.module.scss";
 import clsx from "clsx";
+import MarvelLogo from "../../img/1-10313_latest-marvel-logo-marvel-avengers-xmen-logo-logan.png";
 export default function index() {
   return (
     <footer className={styles.footer}>
@@ -8,7 +9,7 @@ export default function index() {
         <div className={clsx(styles.content)}>
           <div className={clsx(styles.primaryLink)}>
             <img
-              src="https://www.marvel.com/static/images/favicon/android-chrome-icon-194.png"
+              src={MarvelLogo}
               alt=""
             />
             <nav className={clsx(styles.linkWrap)}>

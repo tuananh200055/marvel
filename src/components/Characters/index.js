@@ -13,7 +13,7 @@ import { useEffect, useState, useRef } from "react";
 import Autosuggest from "react-autosuggest";
 import ReactPaginate from "react-paginate";
 function Characters() {
-  const api = "http://gateway.marvel.com/v1/";
+  const api = "https://gateway.marvel.com:443/v1/";
   let AutosuggestHighlightMatch = require("autosuggest-highlight/match");
   let AutosuggestHighlightParse = require("autosuggest-highlight/parse");
   const allCharactersRef = useRef(null);
