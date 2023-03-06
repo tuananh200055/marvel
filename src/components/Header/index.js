@@ -8,7 +8,7 @@ import axios from "axios"
 
 
 function Header() {
-  const api = "http://gateway.marvel.com/v1/";
+  const api = "https://gateway.marvel.com:443/v1/";
 
   const key = "43b6c270cab0ae1477e1f4d224fb9df4";
 
