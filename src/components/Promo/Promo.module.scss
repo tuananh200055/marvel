@@ -1,0 +1,62 @@
+$red-cl: #e62429;
+$black-cl: #000000;
+
+.promoWrap{
+	background: $black-cl;
+}
+
+.promo{
+	display: flex;
+	
+}
+
+.banner{
+	flex: 1;
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+.content {
+	flex:1;
+	padding:50px;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	
+	
+}
+.info{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	height: 100%;
+	padding: 40px 30px 40px;
+	h3{
+		color: $red-cl;
+		letter-spacing:3px;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	h2{
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+	}
+	p{
+		color:white;
+		margin-top:15px;
+		margin-bottom: 25px;
+	}
+}
+
+.term{
+	font-size: 14px;
+	color:white;
+	
+
+}

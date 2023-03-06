@@ -1,0 +1,27 @@
+$gray-cl: #999;
+
+.box{
+	margin-top: 35px !important;
+}
+
+.imgWrap{
+	display: block;
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.type{
+	color: $gray-cl;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 10px 0;
+
+}
+
+.info{
+	font-weight: bold;
+	color: black;
+	line-height: 1.1;
+}
